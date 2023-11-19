@@ -2,7 +2,7 @@
 
 -- Created with CodeSandbox
 
-UI is hosted at [https://n4n74p.csb.app/](https://g6llt2.csb.app/) in a editable sandbox.
+UI is hosted at https://g6llt2.csb.app/ in a editable sandbox.
 
 The project can be forked and used for customizing the UI further.
 
