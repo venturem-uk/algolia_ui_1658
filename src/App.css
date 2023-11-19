@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "HeaderFont";
+  src: local("HeaderFont"), url("./src/fonts/MASQUE.ttf") format("truetype");
+}
+
+.Container {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: minmax(min-content, 200px) 1fr;
+  gap: 0.5rem;
+  padding: 10px;
+  padding-right: 30 px;
+  background-color: blanchedalmond;
+}
+
+.Search {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.Search-header {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 1fr auto auto auto;
+  gap: 0.5rem;
+}
+
+.CurrentRefinements {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.Hit-price {
+  color: goldenrod;
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 1.3rem;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.ais-CurrentRefinements-label {
+  text-transform: capitalize;
+}
+
+.ais-PoweredBy {
+  margin-top: 0.5rem;
+}
+
+.ais-PoweredBy-logo {
+  height: 1rem;
+}
+
+.ais-Hits-item {
+  /* display: flex; */
+  min-width: 100%;
+  widows: 100%;
+  background-color: white;
+}
+
+.Search-result-image {
+  display: flexbox;
+  float: left;
+  /* background-color: royalblue; */
+  width: 30%;
+  min-width: 30%;
+  max-width: 30%;
+}
+
+.Search-result-item {
+  /* display: flexbox; */
+  flex: 1;
+  float: left;
+  padding: 20px;
+  /* background-color: yellow; */
+  width: 60%;
+}
+
+.Search-result-title {
+  background-color: seashell;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.Search-result-category {
+  background-color: rgb(241, 241, 241);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.Search-header {
+  background-color: blanchedalmond;
+  opacity: 0.8;
+  /* padding: 2px; */
+}
